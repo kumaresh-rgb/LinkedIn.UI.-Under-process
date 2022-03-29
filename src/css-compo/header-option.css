@@ -1,0 +1,68 @@
+
+.header__left > img{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    object-fit: contain;
+    object-position: top -0.1;
+    width: 45px;
+    height:50px;
+    margin:10px;
+   
+ }
+
+.Place-Holder > input{
+   display: flex;
+   flex-direction: column;
+   height: 30px;
+   margin: 20px;
+   color:grey;
+   background-color: #f3f2ef;
+   border-radius: 5px;
+   outline:none;
+   border:none;
+   width: 100%;
+}
+.header__left{
+    display: flex;
+    
+}
+ 
+.SearchIcon-Input{
+    display: flex;
+    flex-direction: column;
+    margin:opx;
+}
+.All-Icon:hover{
+    color:black
+}
+.All-Icon{
+    display: flex;
+    flex-direction:column;
+    color: gray;
+    align-items: center;
+    margin:2vmin;
+ 
+    
+
+    font-size:10px;
+    font-weight: 400;
+    justify-content: space-evenly;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+     
+
+}
+.Place-Holder{
+    display:flex;
+
+}
+.Main__header{
+    display:flex;
+    justify-content: space-evenly;
+    border-bottom: 0.2px solid lightgrey;
+    position:sticky;
+    top: 9;
+    z-index:999;
+}
+

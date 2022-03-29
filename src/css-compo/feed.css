@@ -1,0 +1,115 @@
+.Type{
+   position:absolute;
+    width:500px;
+    height:1000px;
+    margin-top: 34px;
+    margin-left: -1px;
+    flex:0.6;
+    
+    
+}
+.face{
+    border: 1px solid lightgray ;
+    background-color:#ffffff;
+    border-radius: 10px;
+  
+   
+   
+    
+}
+.post>input{
+   height: 34px;
+ 
+   border-radius:40px;
+   min-width: 410px;
+   
+  
+}
+.post{
+    position: absolute;
+    margin-top: -48px;
+    margin-left:57px
+}
+.post > button{
+    position:absolute;
+    margin-left:-55px;
+    margin-top:6px;
+    
+    display:none;
+}
+.option{
+    display:flex;
+    justify-content: space-evenly;
+    font: size 10px;
+    align-items: center;
+    color:#a0a0a0;
+    cursor:pointer;
+    
+}
+.option:hover{
+   color: black;
+}
+
+
+.second-profile{
+    border: 1px solid lightgray ;
+    background-color:#ffffff;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction:row;  
+    
+}
+.icon-profile{
+    display:flex;
+
+}
+.pname{
+  font-weight: bold;
+  font-size: 13px;
+  margin-top: 5px;
+  cursor: pointer;
+ 
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.institute{
+display: flex;
+font-size: 12px;
+margin-top: 22px;
+color:gray;
+cursor:pointer;
+margin-left: -78px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.description{
+display:flex;
+font-size: 12px;
+margin-top: 50px;
+cursor:pointer;
+margin-left: -200px;
+font-family: -apple-syste
+}
+.public{
+    display: flex;
+    position: absolute;
+    margin-left: 225px;
+    margin-top: 18px;
+    cursor: pointer;
+}
+.motive{
+    display: flex;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 14px;
+   justify-content: space-evenly;
+   color:#a0a0a0;
+ 
+   
+}
+.motive:hover{
+    color: black;
+ }
+.kl{
+    display: flex;
+    justify-content: space-evenly;
+}

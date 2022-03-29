@@ -1,0 +1,140 @@
+.sidebar{
+    display: flex;
+    flex-direction:column;
+    margin-top: 30px;
+    margin-left: 111px;
+    margin-right:1014px;
+    text-align: center;
+    height:fit-content;
+    
+}
+.sidebar__top{
+    display: flex;
+    flex-direction: column;
+    flex:0.2;
+    align-items: center;
+    border: 1px solid lightgray ;
+    background-color:#ffffff;
+    border-radius: 10px;
+    
+}
+
+
+.Main-sidebar{
+    display:flex;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: space-evenly;
+}
+.Avatar{
+    margin-bottom: 10px;
+}
+.Main-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f3f2ef;
+}
+.image{
+    margin-top: 18px;
+    width:1%;
+    height:1%;
+    object-fit: cover;
+    margin-bottom: -20px;
+
+   
+}
+.name{
+   
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 6px;
+}
+.now{
+   
+    font-size: 12px;
+    font-weight:lighter;
+    margin: 10px;
+    
+}
+.line{
+    
+    margin:11px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.25;
+}
+.connection{
+    font: size 12px;
+    text-align: left;
+    
+}
+.connection:hover{
+    background-color: #f3f2ef;
+}
+
+.v{
+    color:#a0a0a0;
+}
+.grow{
+    font-weight: bold;
+    text-align:left;
+    
+}
+.connection-2:hover{
+    background-color: #f3f2ef;
+}
+
+.v-2:hover{
+    background-color: #f3f2ef;
+}
+.v-2{
+    font: size 12px;
+    text-align: left;
+    color:#a0a0a0;
+    
+}
+
+.mywhishlist{
+    font-weight: bold;
+    text-align: left;
+  
+  
+    
+}
+.mywhishlist:hover{
+    background-color: #f3f2ef;
+}
+
+.second{
+    text-align: left;
+    padding: 10px;
+    border: 1px solid lightgray ;
+    background-color:#ffffff;
+    border-radius: 10px;
+   
+    font-size:  12px;
+    font-weight: bold;
+    color: #1d72c7;
+    margin-top: 6px;
+    
+
+}
+.ssb{
+ justify-content:space-evenly;
+ margin:4px;
+ text-indent: 0px;
+ line-height: 2;
+}
+
+
+.discover > p{
+    text-align: center;
+    color:#a0a0a0;
+    margin: 10px;
+    background-size: 16px;
+}
+.discover:hover{
+    background-color: #f3f2ef;
+    
+}
